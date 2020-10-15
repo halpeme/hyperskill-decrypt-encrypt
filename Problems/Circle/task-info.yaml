@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Circle {
+
+        double radius;
+
+        // write methods here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2955
+status: Solved
+feedback:
+  message: Failed to get check result from JetBrains Academy
+  time: Tue, 04 Aug 2020 10:33:04 UTC
+record: -1

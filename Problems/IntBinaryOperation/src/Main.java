@@ -1,0 +1,42 @@
+abstract class IntBinaryOperation {
+
+    protected int firstArg;
+    protected int secondArg;
+
+    public IntBinaryOperation(int firstArg, int secondArg) {
+        this.firstArg = firstArg;
+        this.secondArg = secondArg;
+    }
+
+    public abstract int perform();
+}
+
+
+
+class Addition extends  IntBinaryOperation{
+
+    public Addition(int firstArg, int secondsArg){
+        super(firstArg,secondsArg);
+    }
+    @Override
+    public int perform() {
+        return firstArg + secondArg;
+    }
+
+}
+
+
+
+
+class Multiplication extends  IntBinaryOperation{
+
+
+    public Multiplication(int firstArg, int secondsArg){
+        super(firstArg,secondsArg);
+    }
+    @Override
+    public int perform() {
+        return firstArg * secondArg;
+    }
+
+}
